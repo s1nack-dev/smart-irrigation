@@ -7,7 +7,7 @@ will be a baseline to the entire project.
 
 Wiring Diagram:
 
-!(/diagrams/wiring-diagram.png)
+![wiring diagram](/diagrams/wiring-diagram.png)
 
 
 Pinout Reference:
