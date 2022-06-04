@@ -5,6 +5,11 @@ via Home Assistant. The idea of the project is based on [misperry's design](http
 will be a baseline to the entire project.
 
 
+Wiring Diagram:
+
+!(/diagrams/wiring-diagram.png)
+
+
 Pinout Reference:
 https://randomnerdtutorials.com/esp8266-pinout-reference-gpios/
 
