@@ -1,7 +1,10 @@
 esphome:
-  name: my-new-device
-  platform: ESP8266
-  board: d1_mini_pro
+  name: irrigation-system
+
+esp32:
+  board: esp32dev
+  framework:
+    type: arduino
 
 # Enable logging
 logger:
@@ -10,7 +13,7 @@ logger:
 api:
 
 ota:
-  password: "bcce0789d9ddf099920d55621b9f7717"
+  password: "passwordhere"
 
 wifi:
   ssid: ""
@@ -18,59 +21,58 @@ wifi:
 
   # Enable fallback hotspot (captive portal) in case wifi connection fails
   ap:
-    ssid: "My-New-Device Fallback Hotspot"
-    password: "a5aSsOiYW0d4"
+    ssid: "ssidhere"
+    password: "passwordhere"
 
 captive_portal:
-
 
 switch:
   - platform: gpio
     name: "Zone 1"
     id: relay_1
-    pin: 5
+    pin: 18
     inverted: true
 
   - platform: gpio
     name: "Zone 2"
     id: relay_2
-    pin: 4
+    pin: 19
     inverted: true
 
   - platform: gpio
     name: "Zone 3"
     id: relay_3
-    pin: 0
+    pin: 21
     inverted: true
 
   - platform: gpio
     name: "Zone 4"
     id: relay_4
-    pin: 2
+    pin: 22
     inverted: true
 
   - platform: gpio
     name: "Zone 5"
     id: relay_5
-    pin: 14
+    pin: 23
     inverted: true
 
   - platform: gpio
     name: "Zone 6"
     id: relay_6
-    pin: 12
+    pin: 25
     inverted: true
 
   - platform: gpio
     name: "Zone 7"
     id: relay_7
-    pin: 13
+    pin: 26
     inverted: true
 
   - platform: gpio
-    name: "Well Pump"
+    name: "Zone 8"
     id: relay_8
-    pin: 16
+    pin: 27
     inverted: true
 
 interval:
