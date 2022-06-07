@@ -7,7 +7,7 @@ will be a baseline to the entire project.
 
 Wiring Diagram:
 
-![wiring diagram](/diagrams/wiring-diagram.png)
+![wiring diagram](/assets/diagrams/wiring-diagram.png)
 
 
 Pinout Reference:
@@ -33,3 +33,6 @@ https://a.co/d/dP9yqLP
 
 Wall Transformer, AC to AC Screw Terminal, 50W, 24V
 https://a.co/d/899d4Ys
+
+Here's the current work in progress photo as of 6/7/2022:
+![current progress](/assets/images/irrigation-photo.jpg)
